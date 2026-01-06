@@ -1,7 +1,9 @@
+import HeroSection from "@/components/sections/hero"
+
 export default function HomePage() {
   return (
-    <main className="min-h-screen">
-      {/* Sections */}
+    <main>
+      <HeroSection />
     </main>
   )
 }
